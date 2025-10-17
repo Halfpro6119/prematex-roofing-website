@@ -3,79 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Prematex Roofing - Professional residential and commercial roofing services in Dallas Metroplex. Installation, repairs, replacements, and inspections.">
-    <title>Prematex Roofing | Dallas Metroplex's Trusted Roofing Experts</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Prematex Roofing - Professional residential and commercial roofing services in Dallas Metroplex. Expert roof installation, repairs, and replacements.">
+    <title>Prematex Roofing | Expert Roofing Services in Dallas Metroplex</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="header">
         <nav class="nav container">
-            <div class="nav-brand">
-                <h1 class="logo">PREMATEX<span class="logo-accent">ROOFING</span></h1>
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">PREMATEX</span>
+                <span class="logo-subtext">ROOFING</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
             </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="services.html" class="nav-link">Services</a></li>
-                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="nav-cta">
-                <a href="tel:+14692000000" class="phone-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+            <div class="nav-actions">
+                <a href="tel:+14695551234" class="nav-phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                     </svg>
-                    Call Now
+                    <span>(469) 555-1234</span>
                 </a>
                 <a href="contact.html" class="btn btn-primary">Free Estimate</a>
             </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content container">
-            <div class="hero-text">
-                <span class="hero-badge">Dallas Metroplex's Premier Roofing Contractor</span>
-                <h1 class="hero-title">Expert Roofing Solutions for Your Home & Business</h1>
-                <p class="hero-description">Professional residential and commercial roofing services including installation, repairs, replacements, and inspections. Serving Plano, Dallas, and surrounding areas with quality craftsmanship you can trust.</p>
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                    <span>Trusted Dallas Metroplex Roofing Experts</span>
+                </div>
+                <h1 class="hero-title">
+                    Professional Roofing Solutions for Your Home & Business
+                </h1>
+                <p class="hero-description">
+                    Expert residential and commercial roofing services across the Dallas Metroplex. From installations to repairs, we protect what matters most.
+                </p>
                 <div class="hero-cta">
                     <a href="contact.html" class="btn btn-primary btn-lg">Get Free Estimate</a>
-                    <a href="tel:+14692000000" class="btn btn-secondary btn-lg">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <a href="tel:+14695551234" class="btn btn-secondary btn-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                         </svg>
-                        (469) 200-0000
+                        Call Now
                     </a>
                 </div>
-                <div class="hero-features">
-                    <div class="hero-feature">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                         <span>Licensed & Insured</span>
                     </div>
-                    <div class="hero-feature">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                         <span>Free Inspections</span>
                     </div>
-                    <div class="hero-feature">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
-                        <span>Quality Guaranteed</span>
+                        <span>Warranty Guaranteed</span>
                     </div>
                 </div>
             </div>
@@ -88,51 +114,80 @@
             <div class="section-header">
                 <span class="section-badge">Our Services</span>
                 <h2 class="section-title">Complete Roofing Solutions</h2>
-                <p class="section-description">From residential homes to commercial properties, we deliver exceptional roofing services tailored to your needs.</p>
+                <p class="section-description">Professional roofing services for residential and commercial properties across the Dallas Metroplex</p>
             </div>
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                         </svg>
                     </div>
                     <h3 class="service-title">Residential Roofing</h3>
                     <p class="service-description">Expert installation, repair, and replacement services for homeowners throughout the Dallas Metroplex.</p>
-                    <a href="services.html#residential" class="service-link">Learn More →</a>
+                    <a href="services.html#residential" class="service-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                         </svg>
                     </div>
                     <h3 class="service-title">Commercial Roofing</h3>
-                    <p class="service-description">Comprehensive roofing solutions for businesses, ensuring durability and minimal disruption.</p>
-                    <a href="services.html#commercial" class="service-link">Learn More →</a>
+                    <p class="service-description">Comprehensive roofing solutions for businesses, including flat roofs, TPO, and metal roofing systems.</p>
+                    <a href="services.html#commercial" class="service-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
                         </svg>
                     </div>
                     <h3 class="service-title">Roof Repairs</h3>
-                    <p class="service-description">Fast, reliable repairs to fix leaks, damage, and extend the life of your existing roof.</p>
-                    <a href="services.html#repairs" class="service-link">Learn More →</a>
+                    <p class="service-description">Fast, reliable repairs for leaks, storm damage, and wear. Emergency services available.</p>
+                    <a href="services.html#repairs" class="service-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg>
                     </div>
                     <h3 class="service-title">Roof Inspections</h3>
-                    <p class="service-description">Thorough inspections to identify issues early and provide detailed assessment reports.</p>
-                    <a href="services.html#inspections" class="service-link">Learn More →</a>
+                    <p class="service-description">Thorough inspections to identify issues early and extend your roof's lifespan. Free estimates provided.</p>
+                    <a href="services.html#inspections" class="service-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -141,110 +196,94 @@
     <!-- Why Choose Us -->
     <section class="why-choose section section-dark">
         <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Why Prematex</span>
-                <h2 class="section-title">Why Dallas Homeowners & Businesses Choose Us</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <h3>Licensed & Insured</h3>
-                    <p>Fully licensed and insured for your peace of mind and protection.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Quality Materials</h3>
-                    <p>We use only premium roofing materials from trusted manufacturers.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Fast Response</h3>
-                    <p>Quick response times for emergencies and scheduled services.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                    </div>
-                    <h3>Expert Team</h3>
-                    <p>Experienced professionals dedicated to superior craftsmanship.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                    </div>
-                    <h3>Warranty Protection</h3>
-                    <p>Comprehensive warranties on workmanship and materials.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                    </div>
-                    <h3>Free Consultations</h3>
-                    <p>No-obligation estimates and expert advice for your project.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="why-choose-grid">
+                <div class="why-choose-content">
+                    <span class="section-badge">Why Choose Prematex</span>
+                    <h2 class="section-title">Your Trusted Roofing Partner in Dallas</h2>
+                    <p class="section-description">We're a locally owned and operated roofing company dedicated to protecting homes and businesses across the Dallas Metroplex with quality craftsmanship and exceptional service.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Licensed & Insured</h3>
+                                <p>Fully licensed, bonded, and insured for your peace of mind and protection.</p>
+                            </div>
+                        </div>
 
-    <!-- Service Areas -->
-    <section class="service-areas section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Service Areas</span>
-                <h2 class="section-title">Proudly Serving the Dallas Metroplex</h2>
-                <p class="section-description">Professional roofing services throughout the greater Dallas area</p>
-            </div>
-            <div class="areas-grid">
-                <div class="area-item">Plano</div>
-                <div class="area-item">Dallas</div>
-                <div class="area-item">Frisco</div>
-                <div class="area-item">McKinney</div>
-                <div class="area-item">Allen</div>
-                <div class="area-item">Richardson</div>
-                <div class="area-item">Carrollton</div>
-                <div class="area-item">Irving</div>
-                <div class="area-item">Garland</div>
-                <div class="area-item">Mesquite</div>
-                <div class="area-item">Lewisville</div>
-                <div class="area-item">The Colony</div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Quality Workmanship</h3>
+                                <p>Expert craftsmanship backed by comprehensive warranties on all our work.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Fast Response Time</h3>
+                                <p>Quick response for emergencies and efficient project completion timelines.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Customer Focused</h3>
+                                <p>Dedicated to your satisfaction with transparent communication throughout.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+
+                <div class="why-choose-image">
+                    <div class="image-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
+    <section class="cta-section section">
         <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Ready to Get Started?</h2>
-                <p class="cta-description">Contact us today for a free, no-obligation estimate on your roofing project.</p>
-                <div class="cta-buttons">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Protect Your Property?</h2>
+                    <p class="cta-description">Get a free, no-obligation estimate from Dallas Metroplex's trusted roofing experts.</p>
+                </div>
+                <div class="cta-actions">
                     <a href="contact.html" class="btn btn-primary btn-lg">Get Free Estimate</a>
-                    <a href="tel:+14692000000" class="btn btn-secondary-outline btn-lg">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <a href="tel:+14695551234" class="btn btn-secondary btn-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                         </svg>
-                        Call (469) 200-0000
+                        (469) 555-1234
                     </a>
                 </div>
             </div>
@@ -256,15 +295,30 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3 class="footer-title">PREMATEX<span class="logo-accent">ROOFING</span></h3>
-                    <p class="footer-description">Professional roofing services for residential and commercial properties throughout the Dallas Metroplex.</p>
+                    <div class="footer-logo">
+                        <span class="logo-text">PREMATEX</span>
+                        <span class="logo-subtext">ROOFING</span>
+                    </div>
+                    <p class="footer-description">Professional roofing services for residential and commercial properties across the Dallas Metroplex.</p>
                     <div class="footer-contact">
-                        <p><strong>Email:</strong> info@prematex.net</p>
-                        <p><strong>Phone:</strong> (469) 200-0000</p>
+                        <a href="tel:+14695551234" class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            (469) 555-1234
+                        </a>
+                        <a href="mailto:info@prematex.net" class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            info@prematex.net
+                        </a>
                     </div>
                 </div>
+
                 <div class="footer-col">
-                    <h4 class="footer-heading">Services</h4>
+                    <h4 class="footer-title">Services</h4>
                     <ul class="footer-links">
                         <li><a href="services.html#residential">Residential Roofing</a></li>
                         <li><a href="services.html#commercial">Commercial Roofing</a></li>
@@ -273,31 +327,40 @@
                         <li><a href="services.html#replacement">Roof Replacement</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-col">
-                    <h4 class="footer-heading">Company</h4>
+                    <h4 class="footer-title">Company</h4>
                     <ul class="footer-links">
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="gallery.html">Project Gallery</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html#estimate">Free Estimate</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-col">
-                    <h4 class="footer-heading">Service Areas</h4>
+                    <h4 class="footer-title">Service Area</h4>
+                    <p class="footer-text">Proudly serving the entire Dallas Metroplex including:</p>
                     <ul class="footer-links">
-                        <li>Plano, TX</li>
                         <li>Dallas, TX</li>
-                        <li>Frisco, TX</li>
+                        <li>Plano, TX</li>
                         <li>McKinney, TX</li>
-                        <li>& Surrounding Areas</li>
+                        <li>Frisco, TX</li>
+                        <li>And surrounding areas</li>
                     </ul>
                 </div>
             </div>
+
             <div class="footer-bottom">
                 <p>&copy; 2025 Prematex Roofing. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
